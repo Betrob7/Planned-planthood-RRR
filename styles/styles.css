@@ -424,17 +424,18 @@ hr {
     align-items: flex-end;
     justify-content: space-between;
     padding: 2rem;
-
-    h2 {
-        position: absolute;
-        align-self: center;
-        left: 135px;
-        text-wrap: nowrap;
-        font-size: 64px;
-        font-weight: 500;
-        line-height: 75.2px;
-    }
 }
+
+.footer-section-left h2 {
+    position: absolute;
+    align-self: center;
+    left: 135px;
+    text-wrap: nowrap;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75.2px;
+}
+
 
 .footer-section-right {
     flex: 1;
@@ -442,34 +443,33 @@ hr {
     width: 50%;
     align-content: center;
     justify-content: center;
+}
 
-    figure {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
+.footer-section-right figure {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
-    img {
-        padding: 10rem;
-
-    }
+.footer-section-right figure img {
+    padding: 10rem;
 
 }
 
 .to-top {
     width: 100%;
-
-    p {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        padding: 1rem;
-        font-size: 24px;
-        line-height: 32.68px;
-        text-align: center;
-    }
-
 }
+
+.to-top p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-align: center;
+}
+
 
 /*PAGE2*/
 #Page2 header {
@@ -552,7 +552,7 @@ hr {
 #Page2 .add-planting input[type="date"] {
     width: 100%;
     /* Takes full width of the grid cell */
-    margin: 2 1rem;
+    margin: 0 1rem;
     padding: 10px;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
@@ -591,48 +591,50 @@ hr {
 }
 
 /* FOOTER PAGE2*/
-   .footer-page2 {
+.footer-page2 {
     display: flex;
     width: 100%;
     object-fit: cover;
     background-color: rgba(158, 109, 82, 1);
 
 }
-   .footer-img-container {
-        display: flex;
-       
-        gap: 1rem;
-        padding: 1.9rem;
-    }
 
-    .footer-image{
-        flex: 1;
-        
-    }
-    
+.footer-img-container {
+    display: flex;
 
-     .footer-image img {
+    gap: 1rem;
+    padding: 1.9rem;
+}
+
+.footer-image {
+    flex: 1;
+
+}
+
+
+.footer-image img {
     object-fit: cover;
-        width: 100%;
-        height: 100%;
-    
-      
-    }
+    width: 100%;
+    height: 100%;
+
+
+}
 
 
 
 .to-top {
     width: 100%;
-
-    p {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        padding: 1rem;
-        font-size: 24px;
-        line-height: 32.68px;
-        text-align: center;
-    }
 }
+
+.to-top p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-align: center;
+}
+
 
 
 
@@ -687,22 +689,22 @@ hr {
     .main {
         display: flex;
         flex-direction: column-reverse;
-
-        aside h2 {
-            font-size: 1.5rem;
-        }
-
-        aside {
-            text-align: center;
-        }
-
-        aside button,
-        .circle {
-            align-self: center;
-        }
-
-
     }
+
+    .main aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .main aside {
+        text-align: center;
+    }
+
+    .main aside button,
+    .circle {
+        align-self: center;
+    }
+
+
 
     /*GALLERY SECTION*/
 
@@ -778,26 +780,27 @@ hr {
         display: flex;
         flex-direction: column-reverse;
         align-items: baseline;
-
-        .second-section-circle {
-            margin-left: 0px;
-            align-self: center;
-        }
-
-        aside h2 {
-            font-size: 1.5rem;
-        }
-
-        aside h2,
-        p {
-            text-align: center;
-        }
-
-        button {
-            align-self: center;
-        }
-
     }
+
+    .second-section-circle {
+        margin-left: 0px;
+        align-self: center;
+    }
+
+    .second-section aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .second-section aside h2,
+    p {
+        text-align: center;
+    }
+
+    .second-section button {
+        align-self: center;
+    }
+
+
 
     /*FOOTER*/
     .footer {
@@ -815,11 +818,12 @@ hr {
     .footer-section-right {
         width: 100%;
         height: 401px;
-
-        img {
-            padding: 6rem;
-        }
     }
+
+    .footer-section-right img {
+        padding: 6rem;
+    }
+
 
     .to-top {
         min-width: 500px;
@@ -873,33 +877,33 @@ hr {
     #Page2 .add-planting input#date {
         grid-column: 1;
     }
-}
 
-.add-planting input[type="text"],
-.add-planting input[type="date"] {
 
-    width: 100%;
-    align-self: center;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    .add-planting input[type="text"],
+    .add-planting input[type="date"] {
 
-}
+        width: 100%;
+        align-self: center;
+        box-shadow: 0px 4px 4px 0px #00000040;
 
-.add-planting button {
-    align-self: center;
-}
+    }
 
-.footer-page2 {
-    padding: 0;
-    margin-top: 2rem;
-}
+    .add-planting button {
+        align-self: center;
+    }
 
-.footer-page2 .footer-img-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    padding: 0.5rem;
-    gap: 1rem;
+    .footer-page2 {
+        padding: 0;
+        margin-top: 2rem;
+    }
 
+    .footer-page2 .footer-img-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        padding: 0.5rem;
+        gap: 1rem;
+    }
 
 
     .footer-image {
@@ -914,8 +918,4 @@ hr {
 
         object-fit: cover;
     }
-
-
-
-
 }
