@@ -19,7 +19,7 @@
         </nav>
         <!--HEADER-->
         <header class="header">
-                <img class="hamburger-page2" src="/assets/bars-solid (1).svg" alt="hamburger menu">
+                <img class="hamburger-page2" src="/assets/bars-solid.svg" alt="hamburger menu">
                 <h1>
                     <img src="../assets/plannedplanthoodlogo.svg" class="logo-image" alt="Logo">
                     Mina sidor
@@ -29,15 +29,20 @@
         <section class="add-planting">
             <h2>Lägg till ny plantering:</h2>
             <form>
-             
-                <input type="text" id="plant" placeholder="Planta" required>
+                <label for="plant" class="plant-label">Planta:
+                    <input type="text" id="plant" placeholder="Planta" required>
+                </label>
         
-              
-                <input type="date" id="date" required>
-        
-                <button type="submit">Lägg till</button>
+                <label for="date"class="date-label">Datum:
+                    <input type="date" id="date" required>
+                </label>
+                
+
+                
             </form>
+           
         </section>
+        <button type="submit" class="form-button">Lägg till</button>
         </main>
         <!-----------------GALLERY SECTIONS----------------------->
                         
@@ -100,7 +105,7 @@
         
         <!--FOOTER-PAGE2-->
         <footer class="footer-page2">
-            <article class="image-container">
+            <article class="footer-img-container">
             <figure class="footer-image">
                 <img src="https://plus.unsplash.com/premium_photo-1678344170545-c3edef92a16e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
             </figure>
